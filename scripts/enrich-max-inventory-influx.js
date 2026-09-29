@@ -31,6 +31,7 @@ async function main() {
 
     const gameVersion = await trading.fetchLiveGameVersion(config);
     cache.setGameVersion(gameVersion);
+    cache.setUpdateSource('influx-enrich');
     logger.info(`Live game version: ${gameVersion || 'unknown'}`);
 
     trading.loadConfirmedMaxInventory(cache, config);

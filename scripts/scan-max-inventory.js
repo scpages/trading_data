@@ -35,6 +35,7 @@ async function main() {
 
     const gameVersion = await trading.fetchLiveGameVersion(config);
     cache.setGameVersion(gameVersion);
+    cache.setUpdateSource('uex-scan');
     logger.info(`Live game version: ${gameVersion || 'unknown'}`);
 
     // Load any prior data so a partial-progress file (from an interrupted

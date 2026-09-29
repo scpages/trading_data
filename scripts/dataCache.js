@@ -181,9 +181,15 @@ class DataCache {
      * Export the confirmed max inventory scan state for persistence to disk
      * @returns {Object} { gameVersion, data, cursor, complete }
      */
+    setUpdateSource(source) {
+        this.updateSource = source;
+    }
+
     exportMaxInventoryState() {
         return {
             gameVersion: this.gameVersion,
+            updatedAt: new Date().toISOString(),
+            updatedBy: this.updateSource || 'unknown',
             data: this.confirmedMaxInventory,
             cursor: this.maxInventoryCursor,
             complete: this.maxInventoryScanComplete

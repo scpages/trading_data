@@ -1,0 +1,5 @@
+scripts/node_modules/
+scripts/config.local.json
+scripts/config.json
+scripts/package-lock.json
+scripts/*.log

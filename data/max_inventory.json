@@ -1,6 +1,6 @@
 {
   "gameVersion": "4.10.2",
-  "updatedAt": "2026-10-15T02:30:36.370Z",
+  "updatedAt": "2026-10-16T02:30:26.757Z",
   "updatedBy": "influx-enrich",
   "data": {
     "1_3": {
@@ -5380,7 +5380,7 @@
       "buy": 75
     },
     "79_6": {
-      "buy": 75
+      "buy": 160
     },
     "79_7": {
       "buy": 75

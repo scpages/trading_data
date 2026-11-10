@@ -1,6 +1,6 @@
 {
   "gameVersion": "4.10.2",
-  "updatedAt": "2026-11-09T03:30:44.695Z",
+  "updatedAt": "2026-11-10T03:30:42.823Z",
   "updatedBy": "influx-enrich",
   "data": {
     "1_3": {
@@ -1294,7 +1294,7 @@
       "sell": 5068
     },
     "20_450": {
-      "sell": 1120
+      "sell": 2240
     },
     "20_12": {
       "sell": 259
